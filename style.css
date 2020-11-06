@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    height: 15rem;
+    padding: 0 5rem;
+}
+
+header img {
+    height: 100%;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header h1 {
+    font-family: 'Nothing You Could Do', cursive;
+    margin-left: -3rem;
+}
+
+header ul {
+    list-style: none;
+    padding: 1.2rem 1rem 1rem 1.7rem;
+    border: 2px dotted orange;
+    border-radius: 50%;
+    width: 7rem;
+}
+
+header ul li {
+    padding-bottom: .5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.place-bottom {
+    justify-content: flex-end;
+}
