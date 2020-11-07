@@ -81,6 +81,14 @@ main {
     height: 25rem;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 3rem;
+    width: 100%;
+    background: lightcoral;
+}
+
 .flex {
     display: flex;
 }
