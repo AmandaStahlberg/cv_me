@@ -64,6 +64,23 @@ header a {
     color: black;
 }
 
+main {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#aboutMeDiv {
+    height: 25rem;
+}
+
+#refrencesDiv {
+    height: 25rem;
+}
+
+#interestsDiv {
+    height: 25rem;
+}
+
 .flex {
     display: flex;
 }
