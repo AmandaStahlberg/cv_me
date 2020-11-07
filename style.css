@@ -6,11 +6,11 @@
 
 header {
     height: 15rem;
-    padding: 0 10rem;
+    margin: 1rem 10rem 0 10rem;
 }
 
 header img {
-    height: 100%;
+    height: 15rem;
     width: 15rem;
     border-radius: 50%;
     object-fit: cover;
@@ -19,6 +19,7 @@ header img {
 header h1 {
     font-family: 'Nothing You Could Do', cursive;
     margin-left: -3rem;
+    margin-bottom: -.5rem;
 }
 
 nav {
@@ -28,33 +29,33 @@ nav {
 
 #circle1 {
     position: absolute;
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     border: .2rem solid orange;
     background: rgb(248, 190, 81);
     border-radius: 100%;
     margin-left: -5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 #circle2 {
     position: absolute;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     border: .2rem solid red;
     background: rgb(238, 111, 111);
     border-radius: 100%;
-    margin-left: -3rem;
+    margin-left: -2.5rem;
 }
 
 #circle3 {
     position: absolute;
-    width: 3rem;
-    height: 3rem;
+    width: 4.5rem;
+    height: 4.5rem;
     border: .2rem solid yellow;
     background: rgb(248, 248, 130);
     border-radius: 100%;
-    margin-left: -6rem;
+    margin-left: -7rem;
     margin-bottom: 1rem;
 }
 
