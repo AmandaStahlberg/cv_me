@@ -14,18 +14,31 @@ function addEventListeners() {
 
 function clickAboutMe() {
     const aboutMe = document.getElementById('circle1');
-    aboutMe.onclick =  window.location = '#aboutMeDiv';
+    aboutMe.onclick =  function() {youClickedAboutMe()}
 }
 
+function youClickedAboutMe() {
+    window.location = '#aboutMeDiv';
+}
 function clickRefrences() {
-    const refrences = document.getElementById('circle2');
-    refrences.onclick =  window.location = '#refrencesDiv';
+    const refrences = document.getElementById('circle3');
+    refrences.onclick =  function() {youClickedRefrences()}
+}
+
+function youClickedRefrences() {
+    window.location = '#refrencesDiv';
 }
 
 function clickInterests() {
-    const interests = document.getElementById('circle3');
-    interests.onclick =  window.location = '#interestsDiv';
+    const interests = document.getElementById('circle2');
+    interests.onclick =  function() {youClickedInterests()}
 }
+
+function youClickedInterests() {
+    window.location = '#interestsDiv';
+}
+
+
 
 function moreAboutMeButton() {
     const myButton = document.getElementById('aboutMeButton');
