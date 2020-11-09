@@ -38,8 +38,6 @@ function youClickedInterests() {
     window.location = '#interestsDiv';
 }
 
-
-
 function moreAboutMeButton() {
     const myButton = document.getElementById('aboutMeButton');
     myButton.onclick = function() {readMoreAboutMe()}

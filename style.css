@@ -85,7 +85,9 @@ main {
 }
 
 #aboutMeDiv {
-    height: 30rem;
+    height: 40rem;
+    margin: 5rem 0;
+    padding: 5rem 0;
 }
 
 #aboutMeButton {
@@ -109,11 +111,13 @@ main {
     height: 17rem;
     object-fit: cover;
     transform: rotate(20deg);
-    border: 1rem solid white;
+    border: .5rem solid white;
 }
 
 #refrencesDiv {
-    height: 30rem;
+    height: 40rem;
+    margin: 5rem 0;
+    padding: 5rem 0;
 }
 
 .fa-github {
@@ -129,7 +133,12 @@ main {
 }
 
 #interestsDiv {
+    padding: 5rem 0;
     margin-bottom: 5rem;
+}
+
+.collage-div {
+    width: 70%;
 }
 
 .collage {
@@ -147,7 +156,7 @@ main {
 footer {
     position: fixed;
     bottom: 0;
-    height: 3rem;
+    height: 10rem;
     width: 100%;
     background: lightcoral;
 }
