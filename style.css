@@ -76,6 +76,7 @@ main {
 }
 
 .infoText {
+    padding-top: 3rem;
     width: 30rem;
 }
 
@@ -88,6 +89,7 @@ main {
     height: 2rem;
     border-radius: 3rem;
     background-color: lightcoral;
+    margin-top: 3rem;
 }
 
 #aboutMeButton:hover {
@@ -107,6 +109,18 @@ main {
 
 #refrencesDiv {
     height: 25rem;
+}
+
+.fa-github {
+    font-size: 15rem;
+}
+
+#refrencesDiv a {
+    color: black;
+}
+
+#refrencesDiv ul {
+    padding: 5rem 10rem 0 0;
 }
 
 #interestsDiv {
@@ -144,4 +158,12 @@ footer {
 .center {
     justify-content: center;
     align-items: center;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
