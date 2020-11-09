@@ -4,6 +4,10 @@
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+html {
+    background: rgb(241, 235, 226);
+}
+
 header {
     height: 15rem;
     margin: 1rem 10rem 0 10rem;
@@ -81,7 +85,7 @@ main {
 }
 
 #aboutMeDiv {
-    height: 25rem;
+    height: 30rem;
 }
 
 #aboutMeButton {
@@ -105,10 +109,11 @@ main {
     height: 17rem;
     object-fit: cover;
     transform: rotate(20deg);
+    border: 1rem solid white;
 }
 
 #refrencesDiv {
-    height: 25rem;
+    height: 30rem;
 }
 
 .fa-github {
@@ -124,7 +129,7 @@ main {
 }
 
 #interestsDiv {
-    height: 25rem;
+    height: 30rem;
 }
 
 footer {
