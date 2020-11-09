@@ -52,127 +52,117 @@ function enlargeImg() {
 }
 
 function clickedImg() {
-    img1.style.transform = "scale(3)"; 
-    img1.style.transition = "transform 0.25s ease";
-    img1.onclick = function() {closeImg()}
+
+    if (img1.style.transform == "scale(3)") {
+        img1.style.transform = "scale(1)"
+        img1.style.transition = "transform 0.25s ease"
+        } else {
+        img1.style.transform = "scale(3)"
+        img1.style.transition = "transform 0.25s ease"
+
+    }
 }
 function clickedImg2() {
-    img2.style.transform = "scale(3)"; 
-    img2.style.transition = "transform 0.25s ease";
-    img2.onclick = function() {closeImg2()}
+    if (img2.style.transform == "scale(3)") {
+        img2.style.transform = "scale(1)"
+        img2.style.transition = "transform 0.25s ease"
+    } else {
+        img2.style.transform = "scale(3)"
+        img2.style.transition = "transform 0.25s ease"
+
+    }
 }
 function clickedImg3() {
-    img3.style.transform = "scale(3)"; 
-    img3.style.transition = "transform 0.25s ease";
-    img3.onclick = function() {closeImg3()}
+    if (img3.style.transform == "scale(3)") {
+        img3.style.transform = "scale(1)"
+        img3.style.transition = "transform 0.25s ease"
+    } else {
+        img3.style.transform = "scale(3)"
+        img3.style.transition = "transform 0.25s ease"
+    }
 }
 function clickedImg4() {
-    img4.style.transform = "scale(3)"; 
-    img4.style.transition = "transform 0.25s ease";
-    img4.onclick = function() {closeImg4()}
+    if (img4.style.transform == "scale(3)") {
+        img4.style.transform = "scale(1)"
+        img4.style.transition = "transform 0.25s ease"
+    } else {
+        img4.style.transform = "scale(3)"
+        img4.style.transition = "transform 0.25s ease"
+    }
 }
 function clickedImg5() {
-    img5.style.transform = "scale(3)"; 
-    img5.style.transition = "transform 0.25s ease";
-    img5.onclick = function() {closeImg5()}
+    if (img5.style.transform == "scale(3)") {
+        img5.style.transform = "scale(1)"
+        img5.style.transition = "transform 0.25s ease"
+    } else {
+        img5.style.transform = "scale(3)"
+        img5.style.transition = "transform 0.25s ease"
+    }
 }
 function clickedImg6() {
-    img6.style.transform = "scale(3)"; 
-    img6.style.transition = "transform 0.25s ease";
-    img6.onclick = function() {closeImg6()}
+    if (img6.style.transform == "scale(3)") {
+        img6.style.transform = "scale(1)"
+        img6.style.transition = "transform 0.25s ease"
+    } else {
+        img6.style.transform = "scale(3)"
+        img6.style.transition = "transform 0.25s ease"
+    }
 }
 function clickedImg7() {
-    img7.style.transform = "scale(3)"; 
-    img7.style.transition = "transform 0.25s ease";
-    img7.onclick = function() {closeImg7()}
-}
+    if (img7.style.transform == "scale(3)") {
+        img7.style.transform = "scale(1)"
+        img7.style.transition = "transform 0.25s ease"
+    } else {
+        img7.style.transform = "scale(3)"
+        img7.style.transition = "transform 0.25s ease"
+    }
+} 
 function clickedImg8() {
-    img8.style.transform = "scale(3)"; 
-    img8.style.transition = "transform 0.25s ease";
-    img8.onclick = function() {closeImg8()}
+    if (img8.style.transform == "scale(3)") {
+        img8.style.transform = "scale(1)"
+        img8.style.transition = "transform 0.25s ease"
+    } else {
+        img8.style.transform = "scale(3)"
+        img8.style.transition = "transform 0.25s ease"
+    }
 }
 function clickedImg9() {
-    img9.style.transform = "scale(3)"; 
-    img9.style.transition = "transform 0.25s ease";
-    img9.onclick = function() {closeImg9()}
+    if (img9.style.transform == "scale(3)") {
+        img9.style.transform = "scale(1)"
+        img9.style.transition = "transform 0.25s ease"
+    } else {
+        img9.style.transform = "scale(3)"
+        img9.style.transition = "transform 0.25s ease"
+    }
 }
 function clickedImg10() {
-    img10.style.transform = "scale(3)"; 
-    img10.style.transition = "transform 0.25s ease";
-    img10.onclick = function() {closeImg10()}
+    if (img10.style.transform == "scale(3)") {
+        img10.style.transform = "scale(1)"
+        img10.style.transition = "transform 0.25s ease"
+    } else {
+        img10.style.transform = "scale(3)"
+        img10.style.transition = "transform 0.25s ease"
+    }
 }
 function clickedImg11() {
-    img11.style.transform = "scale(3)"; 
-    img11.style.transition = "transform 0.25s ease";
-    img11.onclick = function() {closeImg11()}
+    if (img11.style.transform == "scale(3)") {
+        img11.style.transform = "scale(1)"
+        img11.style.transition = "transform 0.25s ease"
+    } else {
+        img11.style.transform = "scale(3)"
+        img11.style.transition = "transform 0.25s ease"
+    }
 }
 function clickedImg12() {
-    img12.style.transform = "scale(3)"; 
-    img12.style.transition = "transform 0.25s ease";
-    img12.onclick = function() {closeImg12()}
+    if (img12.style.transform == "scale(3)") {
+        img12.style.transform = "scale(1)"
+        img12.style.transition = "transform 0.25s ease"
+    } else {
+        img12.style.transform = "scale(3)"
+        img12.style.transition = "transform 0.25s ease"
+    }
 }
 
-
-function closeImg() {
-    img1.style.transform = "scale(1)"; 
-    img1.style.transition = "transform 0.25s ease";
-    img1.onclick = function() {clickedImg()}
-}
-function closeImg2() {
-    img2.style.transform = "scale(1)"; 
-    img2.style.transition = "transform 0.25s ease";
-    img2.onclick = function() {clickedImg2()}
-}
-function closeImg3() {
-    img3.style.transform = "scale(1)"; 
-    img3.style.transition = "transform 0.25s ease";
-    img3.onclick = function() {clickedImg3()}
-}
-function closeImg4() {
-    img4.style.transform = "scale(1)"; 
-    img4.style.transition = "transform 0.25s ease";
-    img4.onclick = function() {clickedImg4()}
-}
-function closeImg5() {
-    img5.style.transform = "scale(1)"; 
-    img5.style.transition = "transform 0.25s ease";
-    img5.onclick = function() {clickedImg5()}
-}
-function closeImg6() {
-    img6.style.transform = "scale(1)"; 
-    img6.style.transition = "transform 0.25s ease";
-    img6.onclick = function() {clickedImg6()}
-}
-function closeImg7() {
-    img7.style.transform = "scale(1)"; 
-    img7.style.transition = "transform 0.25s ease";
-    img7.onclick = function() {clickedImg7()}
-}
-function closeImg8() {
-    img8.style.transform = "scale(1)"; 
-    img8.style.transition = "transform 0.25s ease";
-    img8.onclick = function() {clickedImg8()}
-}
-function closeImg9() {
-    img9.style.transform = "scale(1)"; 
-    img9.style.transition = "transform 0.25s ease";
-    img9.onclick = function() {clickedImg9()}
-}
-function closeImg10() {
-    img10.style.transform = "scale(1)"; 
-    img10.style.transition = "transform 0.25s ease";
-    img10.onclick = function() {clickedImg10()}
-}
-function closeImg11() {
-    img11.style.transform = "scale(1)"; 
-    img11.style.transition = "transform 0.25s ease";
-    img11.onclick = function() {clickedImg11()}
-}
-function closeImg12() {
-    img12.style.transform = "scale(1)"; 
-    img12.style.transition = "transform 0.25s ease";
-    img12.onclick = function() {clickedImg12()}
-}
 
 
 function clickAboutMe() {
