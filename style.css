@@ -129,7 +129,19 @@ main {
 }
 
 #interestsDiv {
-    height: 30rem;
+    margin-bottom: 5rem;
+}
+
+.collage {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.collage img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 footer {
