@@ -46,12 +46,18 @@ function moreAboutMeButton() {
 function readMoreAboutMe() {
     let infoBox = document.getElementById('infoBox');
     infoBox.innerText = "Jag är en glad och sprallig smålands-tjej från en liten sjöstad (läs: by) på Ostkusten. Bytte ifrån ena kusten till den andra och har varit bosatt i Göteborg dom senaste 3 åren och trivs väldigt bra. Har funnit ett intresse i programmering och studerar just nu på Medieinstitutet till Front End Utvecklare. Går sådär men jag kämpar på....";
+    
     const myButton = document.getElementById('aboutMeButton');
     myButton.innerText = "Gå tillbaka";
     myButton.onclick = function() {youClickedMeAgain()};
 }
 
 function youClickedMeAgain() {
-    window.location.href = './index.html';
+    let infoBox = document.getElementById('infoBox');
+    infoBox.innerHTML = '<p> <b>Namn:</b> Amanda Ståhlberg <br> <b>Ålder:</b> 27år <br> <b>Bor:</b> Göteborg <br><b>Gör:</b> Just nu pluggar jag front end utvekling på Medieinstitutet. <br><b>Egenskaper:</b> Extremt rolig enligt mig själv. Vem skrattar inte åt sina egna skämt.</p>'
+    
+    const myButton = document.getElementById('aboutMeButton');
+    myButton.innerText = "Vill du veta mer?";
+    myButton.onclick = function() {readMoreAboutMe()};
 }
 

@@ -86,8 +86,8 @@ main {
 
 #aboutMeDiv {
     height: 40rem;
-    margin: 5rem 0;
-    padding: 5rem 0;
+    margin: 5rem 0 0 0;
+    padding: 5rem 0 0 0;
 }
 
 #aboutMeButton {
@@ -116,8 +116,8 @@ main {
 
 #refrencesDiv {
     height: 40rem;
-    margin: 5rem 0;
-    padding: 5rem 0;
+    margin: 5rem 0 0 0;
+    padding: 5rem 0 0 0;
 }
 
 .fa-github {
@@ -134,7 +134,7 @@ main {
 
 #interestsDiv {
     padding: 5rem 0;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 
 .collage-div {
