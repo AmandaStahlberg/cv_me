@@ -134,7 +134,7 @@ main {
 
 #interestsDiv {
     padding: 5rem 0;
-    margin-bottom: 7rem;
+    margin-bottom: 10rem;
 }
 
 .collage-div {
@@ -159,6 +159,12 @@ footer {
     height: 10rem;
     width: 100%;
     background: lightcoral;
+    padding: 0 10rem;
+}
+
+.iconsDiv {
+    width: 10rem;
+    justify-content: space-between;
 }
 
 .flex {
