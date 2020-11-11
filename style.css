@@ -97,7 +97,7 @@ main {
 }
 
 #aboutMeDiv {
-    height: 40rem;
+    height: 30rem;
     margin: 5rem 0 0 0;
     padding: 5rem 0 0 0;
 }
@@ -132,7 +132,7 @@ main {
     padding: 5rem 0 0 0;
 }
 
-.fa-github {
+.githubIcon {
     font-size: 15rem;
 }
 
@@ -170,12 +170,20 @@ footer {
     height: 7rem;
     width: 100%;
     background: lightcoral;
-    padding: 0 10rem;
+    padding: .5rem 10rem 0 10rem;
 }
 
-.iconsDiv {
-    width: 10rem;
-    justify-content: space-between;
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: grey;
+}
+
+footer i {
+    padding-right: 1rem;;
 }
 
 .flex {
