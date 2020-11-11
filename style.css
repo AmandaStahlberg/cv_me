@@ -48,8 +48,8 @@ nav {
     position: absolute;
     width: 5rem;
     height: 5rem;
-    border: .2rem solid red;
-    background: rgb(238, 111, 111);
+    border: .2rem solid rgb(238, 111, 111);
+    background:lightcoral;
     border-radius: 100%;
     margin-left: -2.5rem;
 }
@@ -58,8 +58,8 @@ nav {
     position: absolute;
     width: 4.5rem;
     height: 4.5rem;
-    border: .2rem solid yellow;
-    background: rgb(248, 248, 130);
+    border: .2rem solid rgb(152, 222, 245);
+    background: lightblue;
     border-radius: 100%;
     margin-left: -7rem;
     margin-bottom: 1rem;
@@ -67,14 +67,17 @@ nav {
 
 #circle1:hover {
     cursor: pointer;
+    background: rgb(250, 204, 120);
 }
 
 #circle2:hover {
     cursor: pointer;
+    background: rgb(247, 158, 158);
 }
 
 #circle3:hover {
     cursor: pointer;
+    background: rgb(199, 231, 243);
 }
 
 main {
@@ -169,7 +172,7 @@ footer {
     bottom: 0;
     height: 7rem;
     width: 100%;
-    background: lightcoral;
+    background: rgb(221, 208, 191);
     padding: .5rem 10rem 0 10rem;
 }
 
