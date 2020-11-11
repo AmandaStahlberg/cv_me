@@ -59,7 +59,6 @@ function clickedImg() {
         } else {
         img1.style.transform = "scale(3)"
         img1.style.transition = "transform 0.25s ease"
-
     }
 }
 function clickedImg2() {
