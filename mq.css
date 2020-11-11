@@ -1,0 +1,122 @@
+@media screen and (max-width: 971px) {
+    header {
+        height: 11rem;
+        padding: 1rem 3rem 0 3rem;
+    }
+    header img {
+        height: 10rem;
+        width: 10rem;
+    }
+    header h1 {
+        font-size: 1.5rem;
+        margin-left: -2rem;
+    }
+
+    .collage {
+      flex: 50%;
+      max-width: 50%;
+    }
+    footer {
+        padding: .5rem 3rem 0 3rem; 
+    }
+}
+
+@media screen and (max-width: 910px) {
+    #aboutMeDiv {
+        height: 35rem;
+        padding: unset;
+    }
+    #aboutMeButton {
+        margin-top: 1rem;
+    }
+    #aboutMeImgDiv img {
+        transform: unset;
+    }
+}
+
+@media screen and (max-width: 765px) {
+   
+    #refrencesDiv {
+        margin: unset;
+        padding: unset;
+        height: 20rem;
+    }
+    .githubIcon {
+        margin-top: 5rem;
+        font-size: 7rem;
+    }
+    .hiddenImg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    main {
+        margin: 2rem 3rem 0 3rem;
+    }
+    #citatDiv h5{
+        font-size: 1.5rem;
+    }
+    #aboutMeDiv {
+        margin: unset;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    #circle1{
+        display: none;
+    }
+    #circle2{
+        display: none;
+    }
+    #circle3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 521px) {
+    header {
+        height: 7rem;
+        padding: 1rem 1rem 0 1rem;
+    }
+    header img {
+        height: 6rem;
+        width: 6rem;
+    }
+    header h1 {
+        font-size: 1rem;
+        margin-left: -.8rem;
+    }
+    footer {
+        font-size: .8rem;
+        height: 6rem;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    #refrencesDiv {
+        width: 3rem;
+        height: unset;
+    }
+    #refrencesDiv ul {
+        padding: 1rem 0 3rem 2rem;
+    }
+    #citatDiv h5{
+        font-size: 1.2rem;
+    }
+    #citatDiv p{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    header h1 {
+        font-size: .8rem;
+    }
+    #citatDiv h5{
+        font-size: 1rem;
+    }
+    #citatDiv p{
+        font-size: .5rem;
+    }
+}

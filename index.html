@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mq.css">
     <script src="https://kit.fontawesome.com/e8127072bf.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <script src="./main.js"></script>
 </head>
 <body>
-    <header class="flex space-between">
+    <header id="top" class="flex space-between">
         <div class="imgDiv flex">
             <img src="./img-cv/header-img.jpeg" alt="">
             <div class="flex column place-bottom"><h1>Amanda Ståhlberg</h1></div>
@@ -71,24 +72,24 @@
         <div id="interestsDiv" class="flex center">
             <div class="collage-div flex wrap">
                 <div class="collage">
-                    <img id="img1" src="./img-collage/benne-amanda.jpg" alt="">
-                    <img id="img2" src="./img-collage/trysil.jpeg" alt="">
-                    <img id="img3" src="./img-collage/jonatan.JPG" alt="">
+                    <img class="ShowImg" id="img1" src="./img-collage/benne-amanda.jpg" alt="">
+                    <img class="ShowImg" id="img2" src="./img-collage/trysil.jpeg" alt="">
+                    <img class="ShowImg" id="img3" src="./img-collage/jonatan.JPG" alt="">
                 </div>
                 <div class="collage">
-                    <img id="img4" src="./img-collage/thailand.jpg" alt="">
-                    <img id="img5" src="./img-collage/mamma-chester.JPG" alt="">
-                    <img id="img6" src="./img-collage/korfu.jpg" alt="">
+                    <img class="ShowImg" id="img4" src="./img-collage/thailand.jpg" alt="">
+                    <img class="ShowImg" id="img5" src="./img-collage/mamma-chester.JPG" alt="">
+                    <img class="ShowImg" id="img6" src="./img-collage/korfu.jpg" alt="">
                 </div>
                 <div class="collage">
-                    <img id="img7" src="./img-collage/cloe-humlan.JPG" alt="">
-                    <img id="img8" src="./img-collage/holmen-bat.JPG" alt="">
-                    <img id="img9" src="./img-collage/jonatan-amanda-elin.jpg" alt="">
+                    <img class="hiddenImg" id="img7" src="./img-collage/cloe-humlan.JPG" alt="">
+                    <img class="hiddenImg" id="img8" src="./img-collage/holmen-bat.JPG" alt="">
+                    <img class="hiddenImg" id="img9" src="./img-collage/jonatan-amanda-elin.jpg" alt="">
                 </div>
                 <div class="collage">
-                    <img id="img10" src="./img-collage/afrika.jpg" alt="">
-                    <img id="img11" src="./img-collage/chester.jpg" alt="">
-                    <img id="img12" src="./img-collage/andreas-amanda.jpg" alt="">
+                    <img class="hiddenImg" id="img10" src="./img-collage/afrika.jpg" alt="">
+                    <img class="hiddenImg" id="img11" src="./img-collage/chester.jpg" alt="">
+                    <img class="hiddenImg" id="img12" src="./img-collage/andreas-amanda.jpg" alt="">
                 </div>
             </div> 
         </div>
@@ -107,7 +108,7 @@
             </div>
         </div>  
         <div class="flex column">
-            <a href="./index.html"><i class="fas fa-arrow-alt-circle-up"></i></a>
+            <a href="./index.html#top"><i class="fas fa-arrow-alt-circle-up"></i></a>
             <a href="./index.html#aboutMeDiv">om mig</a>
             <a href="./index.html#refrencesDiv">referenser</a>
             <a href="./index.html#interestsDiv">intressen</a>
