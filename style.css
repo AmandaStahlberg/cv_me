@@ -203,11 +203,13 @@ main {
     width: 100%;
     position: relative;
     transition: all 0.25s ease;
+    opacity: 80%;
+    border: 5px solid white;
 }
 
 .collage img:hover {
     cursor: pointer;
-
+    opacity: 100%;
 }
 
 .hiddenImg {
