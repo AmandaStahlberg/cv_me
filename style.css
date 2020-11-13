@@ -207,6 +207,7 @@ main {
 
 .collage img:hover {
     cursor: pointer;
+    opacity: 60%;
 }
 
 .hiddenImg {
@@ -222,6 +223,8 @@ footer {
     width: 100%;
     background: rgb(221, 208, 191);
     padding: .5rem 7rem 0 7rem;
+    border-top: .2rem solid rgb(206, 194, 177);
+    
 }
 
 footer a {
