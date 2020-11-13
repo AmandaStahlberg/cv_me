@@ -93,16 +93,19 @@ nav {
 #circle1:hover {
     cursor: pointer;
     background: rgb(250, 204, 120);
+    z-index: 1;
 }
 
 #circle2:hover {
     cursor: pointer;
     background: rgb(247, 158, 158);
+    z-index: 1;
 }
 
 #circle3:hover {
     cursor: pointer;
     background: rgb(199, 231, 243);
+    z-index: 1;
 }
 
 /* MAIN CLASSES */
