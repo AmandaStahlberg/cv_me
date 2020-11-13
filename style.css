@@ -11,6 +11,27 @@ body {
     width: 100%;
 }
 
+/* REUSABLE CLASSES*/
+.flex { display: flex; }
+
+.column { flex-direction: column; }
+
+.column-reverse { flex-direction: column-reverse; }
+
+.space-between { justify-content: space-between; }
+
+.place-bottom { justify-content: flex-end; }
+
+.wrap-reverse { flex-wrap: wrap-reverse; }
+
+.wrap { flex-wrap: wrap; }
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER CLASSES */
 header {
     height: 15rem;
     width: 100%;
@@ -84,10 +105,12 @@ nav {
     background: rgb(199, 231, 243);
 }
 
+/* MAIN CLASSES */
 main {
     margin: 7rem 7rem 0 7rem; 
 }
 
+/* classes for the first div */
 #citatDiv {
     height: 12rem;
 }
@@ -98,6 +121,7 @@ main {
     font-family: 'Nothing You Could Do', cursive;
 }
 
+/* classes for the second div */
 .infoText {
     padding-top: 3rem;
     width: 30rem;
@@ -135,6 +159,7 @@ main {
     border: .5rem solid white;
 }
 
+/* classes for the third div */
 #refrencesDiv {
     height: 40rem;
     margin: 5rem 0 0 0;
@@ -157,6 +182,7 @@ main {
     padding: 5rem 10rem 0 0;
 }
 
+/* classes for the fourth div */
 #interestsDiv {
     margin-bottom: 10rem;
 }
@@ -181,6 +207,7 @@ main {
     display: inherit;
 }
 
+/* FOOTER CLASSES */
 footer {
     position: fixed;
     bottom: 0;
@@ -205,35 +232,3 @@ footer i {
     font-size: 1.5rem;
 }
 
-.flex {
-    display: flex;
-}
-
-.column {
-    flex-direction: column;
-}
-
-.column-reverse {
-    flex-direction: column-reverse;
-}
-
-.space-between {
-    justify-content: space-between;
-}
-
-.place-bottom {
-    justify-content: flex-end;
-}
-
-.center {
-    justify-content: center;
-    align-items: center;
-}
-
-.wrap-reverse {
-    flex-wrap: wrap-reverse;
-}
-
-.wrap {
-    flex-wrap: wrap;
-}
