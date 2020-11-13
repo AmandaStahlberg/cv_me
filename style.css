@@ -201,6 +201,8 @@ main {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    position: relative;
+    z-index: auto;
 }
 
 .hiddenImg {
