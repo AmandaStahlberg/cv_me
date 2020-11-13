@@ -202,12 +202,12 @@ main {
     vertical-align: middle;
     width: 100%;
     position: relative;
-    z-index: auto;
+    transition: all 0.25s ease;
 }
 
 .collage img:hover {
     cursor: pointer;
-    opacity: 60%;
+
 }
 
 .hiddenImg {
