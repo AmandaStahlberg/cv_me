@@ -98,7 +98,7 @@ function readMoreAboutMe() {
 
 function youClickedMeAgain() {
     const infoBox = document.getElementById('infoBox')
-    infoBox.innerHTML = '<p> <b>Namn:</b> Amanda Ståhlberg <br> <b>Ålder:</b> 27år <br> <b>Bor:</b> Göteborg <br><b>Gör:</b> Just nu pluggar jag front end utvekling på Medieinstitutet. <br><b>Egenskaper:</b> Extremt rolig enligt mig själv. Vem skrattar inte åt sina egna skämt.</p>'
+    infoBox.innerHTML = '<p> <b>Namn:</b> Amanda Ståhlberg <br> <b>Ålder:</b> 27år <br> <b>Bor:</b> Göteborg <br><b>Gör:</b> Just nu pluggar jag front end utvekling på Medieinstitutet. <br><b>Egenskaper:</b> Extremt envis = Åkt vasaloppet helt otränad!<br>& väldigt rolig enligt mig själv. Vem skrattar inte åt sina egna skämt.</p>'
     
     const myButton = document.getElementById('aboutMeButton')
     myButton.innerText = "Vill du veta mer?"
