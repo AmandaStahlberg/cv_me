@@ -225,7 +225,7 @@ function clickTopButton() {
 }
 
 function youClickedTopButton() {
-    window.location = './index.html#top'
+    window.location = './index.html'
 }
 
 function moreAboutMeButton() {

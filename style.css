@@ -205,6 +205,10 @@ main {
     z-index: auto;
 }
 
+.collage img:hover {
+    cursor: pointer;
+}
+
 .hiddenImg {
     display: inherit;
 }
@@ -232,5 +236,10 @@ footer a:hover {
 footer i {
     padding-right: 1rem;
     font-size: 1.5rem;
+}
+
+#navFooter p:hover {
+    cursor: pointer;
+    color: grey;
 }
 
