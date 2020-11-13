@@ -176,9 +176,7 @@ main {
     vertical-align: middle;
     width: 100%;
 }
-.showImg {
-    display: inherit;
-}
+
 .hiddenImg {
     display: inherit;
 }
@@ -203,7 +201,8 @@ footer a:hover {
 }
 
 footer i {
-    padding-right: 1rem;;
+    padding-right: 1rem;
+    font-size: 1.5rem;
 }
 
 .flex {
